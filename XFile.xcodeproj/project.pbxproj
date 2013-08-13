@@ -15,9 +15,6 @@
 		3BB09D8C17B9CD9300F396BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09D8A17B9CD9300F396BF /* InfoPlist.strings */; };
 		3BB09D8E17B9CD9300F396BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB09D8D17B9CD9300F396BF /* main.m */; };
 		3BB09D9217B9CD9300F396BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB09D9117B9CD9300F396BF /* AppDelegate.m */; };
-		3BB09D9417B9CD9300F396BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09D9317B9CD9300F396BF /* Default.png */; };
-		3BB09D9617B9CD9300F396BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09D9517B9CD9300F396BF /* Default@2x.png */; };
-		3BB09D9817B9CD9300F396BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09D9717B9CD9300F396BF /* Default-568h@2x.png */; };
 		3BB09D9B17B9CD9300F396BF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09D9917B9CD9300F396BF /* MainStoryboard.storyboard */; };
 		3BB09D9E17B9CD9300F396BF /* XFile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BB09D9C17B9CD9300F396BF /* XFile.xcdatamodeld */; };
 		3BB09DA117B9CD9300F396BF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB09DA017B9CD9300F396BF /* MasterViewController.m */; };
@@ -29,6 +26,9 @@
 		3BB09DB717B9CD9400F396BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09DB517B9CD9400F396BF /* InfoPlist.strings */; };
 		3BB09DBA17B9CD9400F396BF /* XFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB09DB917B9CD9400F396BF /* XFileTests.m */; };
 		3BB09DCA17B9DA2B00F396BF /* CropButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB09DC817B9DA2B00F396BF /* CropButton.m */; };
+		3BB09DD017B9DDA600F396BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09DCD17B9DDA600F396BF /* Default-568h@2x.png */; };
+		3BB09DD117B9DDA600F396BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09DCE17B9DDA600F396BF /* Default.png */; };
+		3BB09DD217B9DDA600F396BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB09DCF17B9DDA600F396BF /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +55,6 @@
 		3BB09D8F17B9CD9300F396BF /* XFile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XFile-Prefix.pch"; sourceTree = "<group>"; };
 		3BB09D9017B9CD9300F396BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BB09D9117B9CD9300F396BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3BB09D9317B9CD9300F396BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3BB09D9517B9CD9300F396BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3BB09D9717B9CD9300F396BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3BB09D9A17B9CD9300F396BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3BB09D9D17B9CD9300F396BF /* XFile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XFile.xcdatamodel; sourceTree = "<group>"; };
 		3BB09D9F17B9CD9300F396BF /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
@@ -73,6 +70,9 @@
 		3BB09DC717B9DA2B00F396BF /* CropButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropButton.h; sourceTree = "<group>"; };
 		3BB09DC817B9DA2B00F396BF /* CropButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropButton.m; sourceTree = "<group>"; };
 		3BB09DC917B9DA2B00F396BF /* CrpoButtonDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrpoButtonDelegate.h; sourceTree = "<group>"; };
+		3BB09DCD17B9DDA600F396BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3BB09DCE17B9DDA600F396BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3BB09DCF17B9DDA600F396BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,9 +160,6 @@
 				3BB09D8A17B9CD9300F396BF /* InfoPlist.strings */,
 				3BB09D8D17B9CD9300F396BF /* main.m */,
 				3BB09D8F17B9CD9300F396BF /* XFile-Prefix.pch */,
-				3BB09D9317B9CD9300F396BF /* Default.png */,
-				3BB09D9517B9CD9300F396BF /* Default@2x.png */,
-				3BB09D9717B9CD9300F396BF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -223,8 +220,19 @@
 		3BB09DCB17B9DA4300F396BF /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				3BB09DCC17B9DCDF00F396BF /* images */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		3BB09DCC17B9DCDF00F396BF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3BB09DCD17B9DDA600F396BF /* Default-568h@2x.png */,
+				3BB09DCE17B9DDA600F396BF /* Default.png */,
+				3BB09DCF17B9DDA600F396BF /* Default@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,10 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BB09D8C17B9CD9300F396BF /* InfoPlist.strings in Resources */,
-				3BB09D9417B9CD9300F396BF /* Default.png in Resources */,
-				3BB09D9617B9CD9300F396BF /* Default@2x.png in Resources */,
-				3BB09D9817B9CD9300F396BF /* Default-568h@2x.png in Resources */,
 				3BB09D9B17B9CD9300F396BF /* MainStoryboard.storyboard in Resources */,
+				3BB09DD017B9DDA600F396BF /* Default-568h@2x.png in Resources */,
+				3BB09DD117B9DDA600F396BF /* Default.png in Resources */,
+				3BB09DD217B9DDA600F396BF /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
