@@ -496,6 +496,7 @@
 				GCC_PREFIX_HEADER = "XFile/XFile-Prefix.pch";
 				INFOPLIST_FILE = "XFile/XFile-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -508,6 +509,7 @@
 				GCC_PREFIX_HEADER = "XFile/XFile-Prefix.pch";
 				INFOPLIST_FILE = "XFile/XFile-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

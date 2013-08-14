@@ -6,6 +6,12 @@
 // project.
 
 
+// GCPlaceholderTextView
+#define COCOAPODS_POD_AVAILABLE_GCPlaceholderTextView
+#define COCOAPODS_VERSION_MAJOR_GCPlaceholderTextView 1
+#define COCOAPODS_VERSION_MINOR_GCPlaceholderTextView 0
+#define COCOAPODS_VERSION_PATCH_GCPlaceholderTextView 1
+
 // JSONKit
 #define COCOAPODS_POD_AVAILABLE_JSONKit
 // This library does not follow semantic-versioning,
